@@ -1,5 +1,5 @@
 name: Create Release Mediatek Filogic
-# on: [workflow_dispatch]
+on: [workflow_dispatch]
 on:
   push:
     tags:
