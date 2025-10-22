@@ -16,11 +16,11 @@ jobs:
     runs-on: Linux
     strategy:
       matrix:
-        tag: ['24.10.3']
+        tag: ['23.05.4']
         build_env:
-          - pkgarch: aarch64_cortex-a53
-            target: mediatek
-            subtarget: filogic
+          - pkgarch: mipsel_24kc
+            target: ramips
+            subtarget: mt76x8
     permissions:
       contents: write
 
